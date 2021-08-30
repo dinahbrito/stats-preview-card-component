@@ -40,7 +40,7 @@ span {
     background: linear-gradient(
         rgba(170, 92, 219, .75), 
         rgba(170, 92, 219, .75)
-    ), url(/images/image-header-mobile.jpg);
+    ), url(./images/image-header-mobile.jpg);
     background-blend-mode: multiply;
     filter: blur(.25px);
     background-position: center center;
@@ -78,7 +78,7 @@ span {
         background: linear-gradient(
         rgba(170, 92, 219, .75), 
         rgba(170, 92, 219, .75)
-    ), url(/images/image-header-desktop.jpg);
+    ), url(./images/image-header-desktop.jpg);
     background-blend-mode: multiply;
     filter: blur(.25px);
     background-position: center center;
