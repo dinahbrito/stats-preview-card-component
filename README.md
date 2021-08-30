@@ -42,5 +42,5 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Author
 
-- Website - [Dinah Brito](https://www.dinahbrito.com)
-- LinkedIn - [dinahbrito](https://www.linkedin.com/in/dinahbrito)
+- Website - [https://www.dinahbrito.com](https://www.dinahbrito.com)
+- LinkedIn - [https://www.linkedin.com/in/dinahbrito](https://www.linkedin.com/in/dinahbrito)
