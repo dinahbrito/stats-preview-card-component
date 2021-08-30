@@ -61,3 +61,35 @@ span {
 .col {
     margin: 1rem;
 }
+/* Styling for larger screens 768px and above */
+@media only screen and (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10rem;
+    }
+    .text {
+        order: 1;
+        text-align: left;
+        padding: 5rem;
+    }
+    /* background image */
+    .background-img {
+        background: linear-gradient(
+        rgba(170, 92, 219, .75), 
+        rgba(170, 92, 219, .75)
+    ), url(/images/image-header-desktop.jpg);
+    background-blend-mode: multiply;
+    filter: blur(.25px);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    order: 2;
+    height: 100%;
+    }
+    .stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+}
