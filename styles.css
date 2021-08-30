@@ -7,7 +7,6 @@ body {
 h1 {
     font-family: "Lexend Deca", sans-serif;
 }
-
 span {
     color: hsl(277, 64%, 61%);
 }
@@ -17,4 +16,27 @@ span {
 }
 .main-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* Card Styling */
+.container {
+    background-color: hsl(244, 38%, 16%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 5.5rem 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.background-img {
+    background: linear-gradient(
+        rgba(170, 92, 219, .75), 
+        rgba(170, 92, 219, .75)
+    ), url(/images/image-header-mobile.jpg);
+    background-blend-mode: multiply;
+    filter: blur(.25px);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
 }
