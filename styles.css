@@ -65,7 +65,7 @@ span {
 @media only screen and (min-width: 768px) {
     .container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 50% 50%;
         margin: 10rem 10rem 5rem 10rem;
     }
     .text {
@@ -75,17 +75,15 @@ span {
     }
     /* background image */
     .background-img {
-        background: linear-gradient(
-        rgba(170, 92, 219, .75), 
-        rgba(170, 92, 219, .75)
-    ), url(./images/image-header-desktop.jpg);
-    background-blend-mode: multiply;
-    filter: blur(.25px);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    order: 2;
-    height: 100%;
+        background: 
+        url(./images/image-header-desktop.jpg) rgba(170, 92, 219, .75);
+        background-blend-mode: multiply;
+        filter: blur(.25px);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        order: 2;
+        min-height: 100%;
     }
     .stats {
         display: grid;
