@@ -10,6 +10,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -38,7 +39,9 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - CSS Grid
 - Mobile-first workflow
 
-
+### Continued development
+- Still working on getting the image color to match the original
+- Working on the responsivenes in the desktop view so that it transitions smoothly when the browser resizes.
 
 ## Author
 
