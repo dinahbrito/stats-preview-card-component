@@ -2,15 +2,19 @@
     margin: 0;
     padding: 0;
     }
+    
 body {
-    background-color:  hsl(233, 47%, 7%);
-    font-size: 15px;
     color: hsl(0, 0%, 100%);
+    background-color:  hsl(233, 47%, 7%);
     font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 1.56rem;
 }
 h1 {
     font-family: "Lexend Deca", sans-serif;
     font-size: 28px;
+    font-weight: 700;
+    line-height: 1.75rem;
     margin-bottom: 1rem;
 }
 
@@ -33,14 +37,15 @@ span {
 
 /* Card Styling */
 .container {
+    align-items: center;
     background-color: hsl(244, 38%, 16%);
+    border-radius: .5rem;
     display: grid;
     justify-content: center;
-    align-items: center;
     margin: 5.5rem 1.5rem;
-    border-radius: 10px;
     overflow: hidden;
 }
+
 .background-img {
     background: linear-gradient(
         rgba(170, 92, 219, .75), 
@@ -68,12 +73,23 @@ span {
 }
 /* Styling for larger screens 768px and above */
 @media only screen and (min-width: 768px) {
+    body {
+        height: 100vh;
+        align-items: center;
+        display: grid;
+        justify-content: center;
+    }
+    
     .container {
         display: grid;
-        grid-template-columns: 50% 50%;
-        margin: 10rem 10rem 5rem 10rem;
+        grid-template-columns: 1fr 1fr;
+        margin: 10rem auto;
+        max-height: 27.88rem;
+        max-width: 69.38rem;
+        
     }
     .text {
+        justify-content: left;
         order: 1;
         text-align: left;
         padding: 5rem;
@@ -93,9 +109,14 @@ span {
     .stats {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        justify-content: center;
+        justify-content: left;
+        text-align: left;
     }
     .col {
         text-align: left;
+    }
+    .col-span {
+        margin: 0;
+        padding: 0;
     }
 }
